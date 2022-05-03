@@ -1,8 +1,0 @@
-.mainTable {
-  display: flex;
-  flex-direction: column;
-}
-.tableRow {
-  display: flex;
-  flex-direction: row;
-}

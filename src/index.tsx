@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import LoginPage from './components/LoginPage/LoginPage';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MainGame from './components/MainGame/MainGame';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainGame />
+    <LoginPage />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function
